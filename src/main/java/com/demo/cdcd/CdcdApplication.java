@@ -14,10 +14,7 @@ public class CdcdApplication {
 		return "Welcome to CI CD Application";
 	}
 
-	@GetMapping("/hello")
-	public String hello() {
-		return "Hello, this is a CI CD Application";
-	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(CdcdApplication.class, args);
