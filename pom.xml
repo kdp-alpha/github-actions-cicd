@@ -14,6 +14,13 @@
 	<name/>
 	<description/>
 	<url/>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/kdp-alpha/github-actions-cicd</url>
+		</repository>
+	</distributionManagement>
 	<licenses>
 		<license/>
 	</licenses>
