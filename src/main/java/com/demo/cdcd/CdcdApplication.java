@@ -11,7 +11,7 @@ public class CdcdApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Welcome to CI CD Application";
+		return "Welcome CD Application";
 	}
 
 
