@@ -1,6 +1,9 @@
 name: Maven Publish
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   release:
     types: [created]
